@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building...'
                 // Using triple quotes and Windows-style path with double backslashes
                    powershell '''
-                    & "C:\\Python312\\python.exe" "hello.py"
+                    & "C:\\Users\\AVES\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" "hello.py"
                 '''
             }
         }
